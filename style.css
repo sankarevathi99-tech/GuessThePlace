@@ -1,0 +1,105 @@
+.home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#color {
+    font-family: "Roboto";
+    color: white;
+}
+
+.bg-color {
+    background-color:#3473ad;
+
+}
+
+.logo {
+    height: 70px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.home-bg {
+    background-image: url("https://res.cloudinary.com/db2gmv9r8/image/upload/v1753933524/WhatsApp_Image_2025-07-31_at_09.12.46_193f2e1f_g3dtci.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.home-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 30%;
+    font-family: 'Bree Serif', serif;
+}
+
+.game {
+    height: 120vh;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.text {
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.guess {
+    color: black;
+}
+
+.container {
+    height: 100vh;
+}
+
+.bg {
+
+
+
+    background-image: linear-gradient(to bottom, #d2f2f7, #a6e4ed, #5acee0, #d2f2f7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.inputEl {
+
+    width: 100px;
+
+
+
+
+
+}
+
+.container_bg {
+    background-image: linear-gradient(to bottom, #f7edd7, #edc677, #e8b041, #f0a716);
+    height: 120%;
+    width: 100%;
+    padding: 40px;
+}
+
+.restart {
+    width: 50px;
+}
+
+.score {
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 600;
+}
